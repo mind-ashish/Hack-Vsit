@@ -2,8 +2,8 @@ from flask import Flask, request
 from flask import render_template
 from file2 import makePrediction
 import numpy as np
-app = Flask(__name__)
 
+app = Flask(__name__)
 
 @app.route('/survey', methods = ['POST', 'GET'])
 def funcPost():
